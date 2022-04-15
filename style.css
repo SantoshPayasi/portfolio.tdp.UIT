@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Fuzzy+Bubbles&family=Luxurious+Roman&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Fuzzy+Bubbles&family=Luxurious+Roman&family=Playfair+Display&family=Source+Sans+Pro:wght@300&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+}
+.sideBar{
+background-color: rgb(230, 217, 217);
+/* width:400px; */
+font-family: 'Fira Sans',sans-serif;
+height:100vh;
+transition:transform 0.3s ease-in;
+position:absolute;
+
+}
+.main{
+    /* background-color: yellow; */
+    width:98vw;
+    
+}
+.sideBar nav{
+  padding:33px;
+}
+.sideBar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding:33px 0px;
+    
+}
+.sideBar nav li a:hover{
+ text-decoration: underline;
+ color:rgb(15, 108, 124);
+}
+.sideBar nav li a{
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+}
+.container{
+    display:flex;
+}
+.infocontainer{
+    /* background-color: rgb(175, 18, 123); */
+    width: 80vw;
+    height:45vh;
+margin:auto;
+ margin-top: 140px ;
+    height: 68vh;
+    display: flex;
+    justify-content: space-around;
+
+}
+.developer_detail{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.developer_pic img{
+        width: 340px;
+        height:68vh;
+}
+.hello{
+    font-size: 80px;
+}
+.Name {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif ;
+    margin-left: 0px;
+}
+.about {
+    font-size: 40px;
+}
+.buttons{
+ margin-top:30px;
+ 
+}
+.buttons button{
+        padding: 10px;
+        margin-left: 18px;
+        border-radius: 31px;
+        color: rgb(20, 1, 1);
+        background-color: rgb(179, 193, 218);
+        font-size: 20px;
+        cursor: pointer;
+}
+.buttons button:hover{
+    background-color: aquamarine;
+}
+.contact_form form{
+    /* margin-top:20px; */
+font-family: 'Fira Sans',
+sans-serif;
+padding: 33px 10px ;
+margin-left:70px;
+
+
+
+}
+ .contact_form h1{
+text-align:center;
+}
+.contact_form form div{
+    padding:20px;
+    font-size: 30px;
+}
+.form-control{
+    width:250px;
+    height:35px;
+    text-align: center;
+    border-radius: 15px;
+}
+.form-check-input{
+    height:20px;
+    width:15px;
+}
+.btn {
+    width:100px;
+    height:30px;
+    border-radius: 10px;
+    background-color: rgb(217, 236, 230);
+}
+.btn:hover{
+    text-decoration: underline;
+}
+#emailHelp{
+    font-size:20px;
+    margin:0px;
+    padding-bottom: 20px;
+}
+.Name{display:flex;
+    flex-direction: column;
+    padding-left: 0px;
+    font-weight: lighter;
+}
+#client_Name{
+    font-size: 20px;
+    width:400px;
+    margin-left: 10px;
+}
+.Email{
+    display: flex;
+    flex-direction: column;
+}
+
+.number{
+display: flex;
+flex-direction: column;
+}
+#Client_phone{
+ font-size: 20px;
+ margin:1px 10px;
+ width:400px;
+}
+#client_email{
+font-size: 20px;
+width:400px;
+margin-left: 10px;
+}
+.buttones{
+    height:40px;
+    width:100px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: rgb(185, 211, 226);
+}
+.buttones:hover{
+    background-color: rgb(226, 226, 213);
+    cursor: pointer;
+    text-decoration: underline;
+}
+#isClient{
+    width:20px;
+   
+}
+.About{
+    display: flex;
+    flex-direction: row;
+}
+
+.mains   {
+    font-family:'Fira Sans',
+    sans-serif; 
+  font-size:30px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin:40px;
+
+
+}
+.mains h2{
+    padding-right: 6px;
+}
+.dob{
+    padding-top: 10px;
+}
+
+.education{
+    padding-top:20px;
+}
+.school{
+    font-size: 20px;
+}
+.higher{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.h{
+    padding-bottom: 10px;
+}
+.Skills{display: flex;
+   
+
+}
+.html{
+    padding-top: 50px;
+    display:flex;
+    height:90px;
+    margin-left:0px;
+    margin-right:35vw ;
+
+  
+}
+.html img{
+    padding-right: 40px;
+}
+.html h2{
+   padding-top: 20px;
+}
+.css{
+    margin-top: 40px;
+    padding-left: 0px;
+    display:flex
+}
+.css img{
+    height:100px;
+    padding-right: 40px;
+}
+.css h2{padding-top: 20px;
+}
+.skill{padding-top:20px;}
+.javaScript{
+    display:flex
+}
+.javaScript img{
+    margin-top: 50px;
+    margin-left:0px;
+    height:80px;
+}
+.javaScript h2{
+    padding-left:40px;
+    padding-top:50px;
+}
+/* media query in side bar */
+@media(max-width:1290px){
+   *{
+       background-color: rgb(224, 209, 224);
+   }
+    .developer_pic{
+        display:none;
+    }
+}
+.hamburger{
+    /* height:50px; */
+    cursor:pointer;
+    left:10px;
+   top :10px;
+   position: absolute;
+    
+}
+.cross{
+  margin-left: 230px;
+}
+.sideBarGo{
+   
+        transform: translate(-443px, 0px);
+        position: absolute;
+    
+}
